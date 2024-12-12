@@ -15,23 +15,29 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Fundamentos de datos y estructuras',
+        titulo: 'Introducción a los sistemas productivos agropecuarios',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Conceptos básicos de datos y análisis',
+            titulo: 'Definición y componentes de un sistema productivo',
             hash: 't_1_1',
           },
           {
             numero: '1.2',
-            titulo: 'Técnicas de modelado de datos',
+            titulo: 'Variables clave en el monitoreo agrícola',
             hash: 't_1_2',
           },
           {
             numero: '1.3',
-            titulo: 'Estructuras de datos fundamentales',
+            titulo: 'Importancia de la caracterización de sistemas productivos',
             hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo:
+              'Papel de la sostenibilidad en los sistemas productivos modernos',
+            hash: 't_1_4',
           },
         ],
       },
@@ -39,77 +45,165 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Calidad y tratamiento de datos',
+        titulo: 'Variables en sistemas productivos y su monitoreo',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '2.1',
-            titulo: 'Características de calidad de datos',
+            titulo: 'Importancia de las variables en los sistemas productivos',
             hash: 't_2_1',
           },
           {
             numero: '2.2',
-            titulo: 'Técnicas de extracción y filtrado',
+            titulo: 'Clasificación de variables en sistemas productivos',
             hash: 't_2_2',
           },
           {
             numero: '2.3',
-            titulo: 'Transformación e integración de datos',
+            titulo: 'Monitoreo de variables en sistemas productivos',
             hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Estrategias de monitoreo',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Beneficios del monitoreo de variables',
+            hash: 't_2_5',
+          },
+          {
+            numero: '2.6',
+            titulo: 'Retos en el monitoreo de variables',
+            hash: 't_2_6',
           },
         ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Gestión de bases de datos	8',
+        titulo: 'Automatización en el monitoreo de sistemas productivos',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '3.1',
-            titulo: 'Bases de datos relacionales y no relacionales',
+            titulo: 'Introducción a la automatización en la agricultura',
             hash: 't_3_1',
           },
           {
             numero: '3.2',
-            titulo: 'Operaciones CRUD y consultas básicas',
+            titulo: 'Componentes de un sistema automatizado',
             hash: 't_3_2',
           },
           {
             numero: '3.3',
-            titulo: 'Gestión y optimización de bases de datos',
+            titulo: 'Modelos de Implementación de la Automatización',
             hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Ventajas de la automatización en el monitoreo',
+            hash: 't_3_4',
+          },
+          {
+            numero: '3.5',
+            titulo: 'Retos en la implementación de la automatización',
+            hash: 't_3_5',
+          },
+          {
+            numero: '3.6',
+            titulo: 'Impacto de la automatización en la sostenibilidad',
+            hash: 't_3_6',
           },
         ],
       },
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Introducción a la Inteligencia Artificial',
+        titulo: 'Gestión de variabilidad espacial y temporal',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '4.1',
-            titulo: 'Conceptos fundamentales de IA',
+            titulo: 'Variabilidad espacial y temporal en la agricultura',
             hash: 't_4_1',
           },
           {
             numero: '4.2',
-            titulo: 'Aplicaciones y casos de uso',
+            titulo: 'Concepto de variabilidad espacial y temporal',
             hash: 't_4_2',
           },
           {
             numero: '4.3',
-            titulo: 'Herramientas básicas para IA',
+            titulo:
+              'Impacto de la variabilidad espacial y temporal en los sistemas productivos',
             hash: 't_4_3',
+          },
+          {
+            numero: '4.4',
+            titulo: 'Estrategias de manejo específico por sitio (MSS)',
+            hash: 't_4_4',
+          },
+          {
+            numero: '4.5',
+            titulo: 'Uso de tecnologías para la gestión de la variabilidad',
+            hash: 't_4_5',
+          },
+          {
+            numero: '4.6',
+            titulo: 'Beneficios de la gestión de la variabilidad',
+            hash: 't_4_6',
           },
         ],
       },
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: 'Conclusiones',
+        titulo: 'Herramientas y métodos de análisis',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Importancia de la planificación basada en datos',
+            hash: 't_5_1',
+          },
+          {
+            numero: '5.2',
+            titulo: 'Modelos de gestión integrada de recursos',
+            hash: 't_5_2',
+          },
+          {
+            numero: '5.3',
+            titulo:
+              'Optimización de recursos en sistemas productivos automatizados',
+            hash: 't_5_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema6',
+        numero: '6',
+        titulo: 'Aplicación práctica del monitoreo y automatización',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '6.1',
+            titulo:
+              'Estudios de caso: implementación exitosa de sistemas automatizados',
+            hash: 't_6_1',
+          },
+          {
+            numero: '6.2',
+            titulo: 'Monitoreo de variables y análisis de resultados',
+            hash: 't_6_2',
+          },
+          {
+            numero: '6.3',
+            titulo: 'Vigilancia tecnológica y GNSS en sistemas productivos',
+            hash: 't_6_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -159,220 +253,212 @@ export default {
   },
   complementario: [
     {
-      tema: '1. Fundamentos de datos y estructuras',
+      tema: 'Internet de las cosas (IoT) en agricultura',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2023c, septiembre 5). <i>Ejemplo problemas en la recolección de la información</i>.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=LOlsg6ZkdcA ',
-    },
-    {
-      tema: '2. Calidad y tratamiento de datos',
-      referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2023b, septiembre 5). <i>Datos sucios</i>.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=qf6MR4o58cs ',
-    },
-    {
-      tema: '2. Calidad y tratamiento de datos',
-      referencia:
-        '<i>Limpiar datos de Excel, CSV, PDF y Hojas de cálculo de Google con el intérprete de datos. (s. f.). Tableau.</i>',
-      tipo: 'Portal <i>web</i>',
+        'Farmonaut. (2023). <i>Revolutionizing Agriculture: How IoT and Drones Are Driving Precision Farming for Sustainable Crop Yields</i>. Farmonaut.',
+      tipo: 'Documento Técnico',
       link:
-        'https://help.tableau.com/current/pro/desktop/es-es/data_interpreter.htm ',
+        'https://farmonaut.com/precision-farming/revolutionizing-agriculture-how-iot-and-drones-are-driving-precision-farming-for-sustainable-crop-yields/ ',
     },
     {
-      tema: '2. Calidad y tratamiento de datos',
+      tema: 'Automatización con sistemas SCADA',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2022a, agosto 31). <i>Procesos y procedimientos para la gestión de calidad de la información</i>.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=PeVlTP8qLhE ',
+        'GAO. (2023). Precision Agriculture: Benefits and Challenges for Technology Adoption and Use. U.S. Government Accountability Office',
+      tipo: 'Documento Técnico',
+      link: 'https://www.gao.gov/products/gao-24-105962 ',
     },
     {
-      tema: '2. Calidad y tratamiento de datos',
+      tema: 'Drones en la agricultura',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2023c, julio 25). <i>Procesamiento y análisis de datos</i>.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=8OSIN2kdU5o ',
+        'Farmonaut. (2023). How Data-Driven Precision Farming and IoT are Optimizing Crop Yields and Sustainability. Farmonaut',
+      tipo: 'Documento Técnico',
+      link:
+        'https://farmonaut.com/precision-farming/revolutionizing-agriculture-how-data-driven-precision-farming-and-iot-are-optimizing-crop-yields-and-sustainability/ ',
     },
     {
-      tema: '3. Gestión de bases de datos',
+      tema: 'GNSS en la agricultura',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2022b, octubre 11). <i>Conceptos y estructuras de las bases de datos</i>.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=xUpr20u9dmc ',
+        'Armonaut. (2006). UN-Zambia-ESA <i>Regional Workshop on the Applications of GNSS in Sub-Saharan Africa</i> - June 2006.',
+      tipo: 'Documento Técnico',
+      link:
+        'https://www.unoosa.org/documents/pdf/psa/activities/2006/zambia/presentations/04-01-01.pdf ',
     },
     {
-      tema: '3. Gestión de bases de datos',
-      referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2023a, marzo 24). <i>Administración de bases de datos: Introducción</i>.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=GL7CHwwPlKM ',
+      tema: 'Gestión integrada de fincas con LiteFarm',
+      referencia: 'LiteFarm. (2021). Sustainable farm management tool. FAO.',
+      tipo: 'Herramienta de gestión ',
+      link: 'https://www.litefarm.org/ ',
     },
     {
-      tema: '4. Introducción a la Inteligencia Artificial',
+      tema: 'Gestión eficiente del agua con AquaCrop-OS',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2023b, marzo 24). <i>Inteligencia artificial en los datos.</i>',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=-hYXrGAUYAE ',
+        'Foster, T., et al. (2017). <i>AquaCrop-OS: Opensource version of FAO&#8242;s water productivity model.</i>',
+      tipo: 'Simulador',
+      link: 'https://digitalcommons.unl.edu/wffdocs/16/ ',
+    },
+    {
+      tema: 'Simulador CropSyst para manejo de cultivos',
+      referencia:
+        '<i>Farmonaut. (2023). Using Drones for Precision Agriculture. Farmonaut.</i>',
+      tipo: 'Simulador',
+      link:
+        'https://www.fao.org/land-water/land/land-governance/land-resources-planning-toolbox/category/details/en/c/1236450/ ',
     },
   ],
   glosario: [
     {
-      termino: 'ACID',
+      termino: 'Agricultura de Precisión',
       significado:
-        'Acrónimo de Atomicidad, Consistencia, Aislamiento y Durabilidad; propiedades que garantizan que las transacciones en una base de datos sean fiables.',
+        'Sistema de gestión agrícola que utiliza tecnologías como GPS, sensores y datos geoespaciales para optimizar el uso de insumos y maximizar la productividad y sostenibilidad',
     },
     {
-      termino: 'Algoritmo',
+      termino: 'AquaCrop',
       significado:
-        'Conjunto ordenado y finito de operaciones sistemáticas que permite hacer un cálculo y hallar la solución de un problema específico.',
+        'Modelo desarrollado por la FAO para simular la productividad del agua en cultivos, optimizando el uso de este recurso en diferentes condiciones climáticas.',
     },
     {
-      termino: 'Base de datos',
+      termino: 'Automatización Agrícola',
       significado:
-        'Sistema organizado para recopilar, almacenar y gestionar datos de manera estructurada y eficiente.',
+        'Implementación de sistemas tecnológicos, como sensores IoT y plataformas SCADA, para monitorear y controlar automáticamente los procesos productivos',
     },
     {
-      termino: 'CRUD',
+      termino: 'Gestión Integrada de Recursos',
       significado:
-        '<i>Acrónimo de Create, Read, Update, Delete;</i> operaciones básicas que se pueden realizar sobre datos almacenados.',
+        'Enfoque coordinado para administrar agua, suelo, energía y otros insumos en un sistema productivo, buscando equilibrar la productividad con la sostenibilidad',
     },
     {
-      termino: '<i>Dataset</i>',
+      termino: 'GNSS  (Sistema Global de Navegación por Satélite)',
       significado:
-        'Conjunto de datos organizados y formateados de manera específica para su uso en análisis o entrenamiento de modelos.',
+        'Tecnología que proporciona datos de ubicación y tiempo precisos, utilizada en la agricultura para siembra y aplicación de insumos con precisión.',
     },
     {
-      termino: 'Datos estructurados',
+      termino: 'IoT (Internet of Things)',
       significado:
-        'Información que está organizada en un formato predefinido y fácilmente procesable por máquinas, típicamente en tablas con filas y columnas.',
+        'Red de dispositivos interconectados que recopilan y comparten datos en tiempo real, permitiendo el monitoreo y la gestión de variables clave en la agricultura.',
     },
     {
-      termino: 'ETL',
+      termino: 'LiteFarm',
       significado:
-        '<i>Extract, Transform, Load </i>(Extraer, Transformar, Cargar); proceso que permite a las organizaciones mover datos desde múltiples fuentes, reformatearlos y limpiarlos, y cargarlos en otra base de datos.',
+        'Plataforma de gestión agrícola de código abierto que ayuda a los productores a tomar decisiones informadas sobre la salud de su finca y la sostenibilidad.',
     },
     {
-      termino: 'Estructura de datos',
+      termino: 'Manejo Específico por Sitio (MSS)',
       significado:
-        'Forma particular de organizar datos en una computadora para que puedan ser utilizados de manera eficiente.',
+        'Estrategia agrícola que ajusta las prácticas de manejo a las condiciones particulares de cada zona dentro de una parcela, optimizando recursos como agua y fertilizantes.',
     },
     {
-      termino: 'Indexación',
+      termino: 'NDVI (Índice de Vegetación de Diferencia Normalizada)',
       significado:
-        'Proceso de crear estructuras de datos adicionales que mejoran la velocidad de recuperación de información en una base de datos.',
+        'Índice que mide la salud de la vegetación usando datos de luz reflejada, indicando áreas con estrés hídrico o deficiencia de nutrientes.',
     },
     {
-      termino: 'Inteligencia Artificial',
+      termino: 'Sensores Multiespectrales',
       significado:
-        'Campo de la informática que busca crear sistemas capaces de aprender y resolver problemas de manera similar a como lo haría un ser humano.',
+        'Dispositivos que capturan datos en diferentes longitudes de onda, utilizados principalmente en drones para evaluar la salud de los cultivos mediante índices de vegetación.',
     },
     {
-      termino: 'JSON',
+      termino: 'SIG (Sistemas de Información Geográfica)',
       significado:
-        '<i>JavaScript Object Notation; </i>formato ligero de intercambio de datos, fácil de leer y escribir para humanos y máquinas.',
+        'Herramientas que permiten recopilar, analizar y representar datos espaciales, utilizados para el mapeo de variabilidad en suelos y cultivos.',
     },
     {
-      termino: '<i>Machine Learning</i>',
+      termino: 'Sistema SCADA',
       significado:
-        'Rama de la inteligencia artificial que se centra en el desarrollo de técnicas que permiten que las computadoras aprendan y mejoren a partir de la experiencia.',
+        'Plataforma de software que supervisa, controla y adquiere datos en tiempo real, utilizada en sistemas agrícolas para optimizar operaciones como el riego y la climatización.',
     },
     {
-      termino: 'Metadata',
+      termino: 'Sostenibilidad Agrícola',
       significado:
-        'Datos que proporcionan información sobre otros datos, describiendo su contenido, calidad, condición y otras características.',
+        'Prácticas agrícolas que buscan satisfacer las necesidades actuales de producción sin comprometer la capacidad de las generaciones futuras para satisfacer las suyas.',
     },
     {
-      termino: 'NoSQL',
+      termino: 'Variabilidad Espacial',
       significado:
-        'Tipo de base de datos que no utiliza el esquema tradicional de tablas relacionales, permitiendo mayor flexibilidad y escalabilidad.',
+        'Diferencias en las propiedades del suelo, clima y otros factores dentro de una parcela agrícola, que afectan el rendimiento de los cultivos',
     },
     {
-      termino: 'Normalización',
+      termino: 'Variabilidad Temporal',
       significado:
-        'Proceso de organizar los datos en una base de datos para reducir la redundancia y mejorar la integridad de los datos.',
-    },
-    {
-      termino: 'Pipeline de datos',
-      significado:
-        'Conjunto de procesos y herramientas que permiten mover datos desde una fuente hacia un destino, realizando transformaciones en el camino.',
-    },
-    {
-      termino: '<i>Query</i>',
-      significado:
-        'Consulta o petición específica para recuperar información de una base de datos.',
-    },
-    {
-      termino: '<i>Schema</i>',
-      significado:
-        'Estructura que define cómo se organizan los datos en una base de datos, incluyendo tablas, campos y relaciones.',
-    },
-    {
-      termino: 'SQL',
-      significado:
-        '<i>Structured Query Language; </i>lenguaje estándar para gestionar y manipular bases de datos relacionales.',
-    },
-    {
-      termino: 'Validación de datos',
-      significado:
-        'Proceso de asegurar que los datos cumplan con ciertos criterios de calidad y formato antes de ser utilizados en análisis o procesamiento posterior.',
+        'Cambios en las condiciones agroclimáticas o del suelo a lo largo del tiempo, como variaciones estacionales en temperatura y precipitación',
     },
   ],
   referencias: [
     {
       referencia:
-        'Antonio, P. P. (2022). Gestión de bases de datos. Ediciones Paraninfo, S.A.',
+        'Aguilera, M. (2014). Desarrollo en la Avicultura en Colombia: Instituciones, Organizaciones y Tecnología. Revista del Banco de la República, 87(1046), 21–56.',
     },
     {
       referencia:
-        'Díaz, C. O., Soler, P., Pérez, M. & Mier, A. (2024). OMASHU: La ciencia detrás del éxito; Big Data e IA en los eSports. Revista SISTEMAS, 170, 61-79.',
+        'Bernal, E. J. A., & Díaz, A. (2014). Mico CORPOICA: Buenas Prácticas Agrícolas (BPA) en el Cultivo de Aguacate. Bogotá: CORPOICA.',
     },
     {
-      referencia:
-        'Díez, R. P., Gómez, A. G., & De Abajo Martínez, N. (2001). Introducción a la inteligencia artificial: sistemas expertos, redes neuronales artificiales y computación evolutiva. Universidad de Oviedo.',
-    },
-    {
-      referencia:
-        'Guardelli, E. (2024). Minería de Procesos: Convertir Datos en Valor. MedTechBiz.',
-    },
-    {
-      referencia:
-        'Jones, H. (2018). Analítica de Datos: Una guía esencial para principiantes en minería de datos, recolección de datos, análisis de <i>Big Data</i> para negocios y conceptos de inteligencia empresarial. Independently Published.',
-    },
-    {
-      referencia:
-        'Leyva, D. S. (2024). Domina <i>Machine Learning</i>: Guía completa para principiantes. Independently Published.',
-    },
-    {
-      referencia:
-        'McKinsey, W. (2023). Python para análisis de datos. Anaya Multimedia.',
-    },
-    {
-      referencia:
-        'Orlandi, M. A. M. (2024). Tecnologías Big Data, Minería de Datos y Analítica aplicada a la gestión de Recursos Humanos: contiene: un caso de estudio. Editora Dialética.',
-    },
-    {
-      referencia:
-        'Peraza, E. A. C. (2012). Estructuras y Fundamentos de Datos. Guía de ejercicios prácticos. Lulu.com.',
-    },
-    {
-      referencia:
-        'Shovic, J. C. & Simpson, A. (2019). Python All-in-One For Dummies. John Wiley & Sons.',
-    },
-    {
-      referencia:
-        'Subirats Maté, L., Pérez Trenard, D. O., Calvo González, M. & Isabel Guitart Hormigo. (2019). Introducción a la limpieza y análisis de los datos. ',
+      referencia: 'FAO. (2023). <i>Simulation Model</i>',
       link:
-        'https://openaccess.uoc.edu/bitstream/10609/148647/1/IntroduccionALaLimpiezaYAnalisisDeLosDatos.pdf',
+        'https://www.fao.org/land-water/land/land-governance/land-resources-planning-toolbox/category/details/en/c/1236450/.',
+    },
+    {
+      referencia:
+        'Farmonaut. (2023). Revolution culture: How IoT and Drones Are Driving Precision Farming for Sustainable Crop Yields. ',
+      link: 'https://farmonaut.com/iot-precision-agriculture/',
+    },
+    {
+      referencia:
+        'Food and Agriculture Organization of the United Nations. (2006). Evapotranspiración del Cultivo: Guías para determinación de los requerimientos de agua de los cultivos (Estudios FAO: Riego y Drenaje). <i>Food & Agriculture Organization.</i> ',
+      link: 'https://www.fao.org',
+    },
+    {
+      referencia:
+        'Pieri, R. (2010). Metodología de la Investigación (5ª ed.). McGraw-Hill Interamericana.',
+    },
+    {
+      referencia:
+        'Fundación Al. (2015). Manual de manejo integrado de plagas: Guía para cuidar un huerto orgánico y saludable. Bolivia: Fundación Alternativas.',
+    },
+    {
+      referencia:
+        'Fundación Alternativas. (2015). Agricultura Urbana en Cursos: Estrategias para la resiliencia y sostenibilidad. Bolivia: Fundación Alternativas.',
+    },
+    {
+      referencia:
+        'Fundación Alternativas. (2015). Manejo de Plagas en la Agricultura Orgánica. La Paz: Fundación Alternativa.',
+    },
+    {
+      referencia:
+        'Garbanzo, M. (2011). Manual de buenas prácticas para el Cultivo de Aguacate Hass. Costa Rica: CORFOGA.',
+    },
+    {
+      referencia:
+        'Instituto Agropecuario (ICA). (2012). Manejo Fitosanitario del Cultivo del Aguacate Hass. Bogotá: ICA.',
+    },
+    {
+      referencia: 'LiteFarm. (2021). L Farm Management Tool.',
+      link: 'https://www.litefarm.org/',
+    },
+    {
+      referencia:
+        'U.S. Government Accountability Office. (2023). Agriculture Technologies for Resource Efficiency*.',
+      link: 'https://www.gao.gov/products/gao-24-105962',
     },
   ],
   global: {
-    Name:
-      'Modelamiento y gestión de datos para modelos de inteligencia artificial',
+    Name: 'Automatización y monitoreo de sistemas productivos agropecuarios',
     Description:
       'Este componente ofrece una introducción comprehensiva al modelamiento y gestión de datos para sistemas de inteligencia artificial. Abarca los fundamentos de estructuras de datos, técnicas de calidad y tratamiento, sistemas de gestión de bases de datos y conceptos básicos de IA. Proporciona las bases teóricas necesarias para comprender cómo los datos se transforman en información valiosa para modelos de IA.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [],
+    imagenesDecorativasBanner: [
+      {
+        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/1.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-2'],
+        imagen: require('@/assets/curso/portada/2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/3.png'),
+      },
+    ],
   },
 }

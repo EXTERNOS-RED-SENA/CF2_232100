@@ -8,27 +8,30 @@
         span
           i.fas.fa-info
       h1 Introducción
-    
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-9.my-lg-0.my-3
-        .bg1.p-4.h-100
-          p En la era de la inteligencia artificial, los datos se han convertido en uno de los recursos más valiosos para las organizaciones. Sin embargo, para que estos datos sean verdaderamente útiles, necesitan ser adecuadamente modelados, gestionados y procesados. La diferencia entre un proyecto de IA exitoso y uno fallido a menudo radica en la calidad y estructura de los datos que lo alimentan.
+      
+    .row.bg4.align-items-center.my-5
+      .px-lg-5.px-4    
+        .row.justify-content-center.align-items-center.mb-4
+          .col-lg-7.my-3
+            p En un entorno agrícola y pecuario en constante evolución, la incorporación de tecnologías avanzadas es clave para enfrentar los desafíos de sostenibilidad, eficiencia y productividad. El componente de automatización y monitoreo de sistemas productivos agropecuarios responde a estas necesidades, proporcionando a los aprendices las herramientas teóricas y prácticas necesarias para implementar sistemas automatizados de adquisición y gestión de datos.
+            .bg1.b-dash.p-3.brad
+              p.mb-0 Este componente se enfoca en la caracterización de sistemas productivos y el monitoreo de variables críticas, como temperatura, humedad, precipitación y calidad del suelo. A través de tecnologías como sensores IoT, plataformas SCADA y software de análisis de datos, se busca optimizar cada fase del proceso productivo, desde la siembra hasta la cosecha y postcosecha. Estas herramientas no solo permiten la recolección de datos en tiempo real, sino también la toma de decisiones informadas que mejoren el rendimiento y reduzcan el impacto ambiental.
+          .col-lg-5.my-3
+            img.img-a.img-t(src='@/assets/curso/temas/4.png' alt='')       
 
-          p Este componente formativo aborda los principios esenciales del modelamiento y gestión de datos en el contexto de la inteligencia artificial. Comienza con los conceptos básicos de estructuras de datos, seguido por técnicas de calidad y tratamiento de datos. Se exploran los sistemas de gestión de bases de datos y, finalmente, se introduce la inteligencia artificial y sus requerimientos de datos.
-              
-      .col-lg-3.my-lg-0.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/1.png', alt='')
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5.my-lg-0.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/2.png', alt='')    
-      .col-lg-7.my-lg-0.my-3
-        p A lo largo del componente, el aprendiz descubrirá cómo las diferentes piezas del rompecabezas de datos se unen para formar la base de sistemas de IA efectivos. Mediante referencias de estudio, se explorarán las mejores prácticas en el modelamiento y gestión de datos, así herramientas y tecnologías relevantes en el campo.
+        .row.justify-content-center.mb-4
+          .col-lg-4.my-lg-0.my-3
+            img.img-a.img-t(src='@/assets/curso/temas/5.png' alt='')    
+          .col-lg-8.my-lg-0.my-3
+            p El monitoreo automatizado facilita la detección temprana de problemas, como deficiencias hídricas o condiciones climáticas adversas, y permite ajustar las estrategias productivas de manera oportuna. Además, este enfoque promueve la agricultura de precisión, que optimiza el uso de insumos y recursos, incrementando la rentabilidad y reduciendo el desperdicio.
+            .row.justify-content-center.align-items-center.bg3.p-4.brad.mb-4
+              .col-lg-auto
+                img.img-a.img-t(src='@/assets/curso/temas/6.png' alt='')
+              .col.pt-lg-0.pt-md-4
+                p.mb-0 A lo largo de este componente, se explorarán estudios de caso en cultivos como el aguacate Hass y la producción avícola, demostrando cómo estas tecnologías mejoran la productividad y sostenibilidad de los sistemas agropecuarios. También se abordarán normativas y buenas prácticas que aseguren la correcta implementación de estas herramientas.
 
-        p La comprensión profunda de estos fundamentos es muy importante para toda persona que aspire a trabajar en el campo de la IA. Como dice el refrán en ciencia de datos: "Los modelos son tan buenos como los datos que los alimentan".
-            
-        .bg2.p-2
-          p.mb-0 ¡Bienvenida/o a este viaje por los fundamentos del modelamiento y gestión de datos para IA!               
+    p.mb-5 En resumen, este componente prepara al aprendiz para enfrentar los retos del sector agropecuario moderno, equipándolo con los conocimientos y habilidades necesarios para integrar tecnologías automatizadas en procesos productivos, promoviendo una gestión eficiente y sostenible de los recursos.
 
     .row.justify-content-center.align-items-center           
       .col-lg-12
